@@ -30,11 +30,11 @@ function Forms() {
     <>
     <form action="" className="text-center m-4" onSubmit={handleClick}>
       <div>
-        <input type="text" placeholder="Enter Notes" className="border-4 p-2 rounded"
+        <input type="text" placeholder="Enter Notes" className="border-4 p-2 font-mono rounded"
         onChange={(e)=>setTodoString(e.target.value)}
         value={todoString}
         />
-        <button className="bg-orange-200 p-2 rounded ml-2">Add</button>
+        <button className="bg-violet-300 hover:bg-violet-500 tracking-wide font-mono text-stone-50  p-2 rounded ml-2">Add</button>
       </div>
     </form>
     <DisplayNotes />
