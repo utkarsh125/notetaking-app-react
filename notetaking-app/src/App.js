@@ -14,7 +14,7 @@ function App(){
 
     
     <>
-    <h1 className="text-3xl p-3 m-2 font-bold text-center font-mono">My Notes</h1>
+    <h1 className="flex justify-center text-3xl p-3 m-2 font-bold text-center font-mono">My Notes</h1>
     <Forms />
     </>
 
