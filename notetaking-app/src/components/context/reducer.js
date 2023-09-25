@@ -6,6 +6,8 @@ const Reducer = (state, action) => {
         case ADD_TODO:
             console.log(state)
             return [...state, action.payload]
+        case REMOVE_TODO:
+            return state.filter((todo)=>todo != action.payload)
     }
 }
 

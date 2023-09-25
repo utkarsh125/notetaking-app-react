@@ -1,6 +1,7 @@
 import React, {useContext, useState} from "react";
 import contextTodo from "./context/context";
 import { ADD_TODO } from "./context/action.types";
+import DisplayNotes from "./DisplayNotes";
 
 function Forms() {
 
@@ -26,6 +27,7 @@ function Forms() {
   
 
   return (
+    <>
     <form action="" className="text-center m-4" onSubmit={handleClick}>
       <div>
         <input type="text" placeholder="Enter Notes" className="border-4 p-2 rounded"
@@ -35,8 +37,8 @@ function Forms() {
         <button className="bg-orange-200 p-2 rounded ml-2">Add</button>
       </div>
     </form>
-
-    
+    <DisplayNotes />
+    </>
   );
 }
 

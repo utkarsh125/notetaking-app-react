@@ -2,6 +2,7 @@ import React, { useReducer } from "react";
 import Forms from "./components/Forms";
 import contextTodo from "./components/context/context";
 import reducer from "./components/context/reducer";
+import DisplayNotes from "./components/DisplayNotes";
 
 function App(){
 
@@ -13,7 +14,7 @@ function App(){
 
     
     <>
-    <h1 className="text-3xl font-bold underline text-center">Notes App</h1>
+    <h1 className="text-3xl font-bold text-center">Notes App</h1>
     <Forms />
     </>
 
