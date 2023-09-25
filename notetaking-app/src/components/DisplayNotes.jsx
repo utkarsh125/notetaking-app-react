@@ -5,7 +5,7 @@ import { REMOVE_TODO } from "./context/action.types";
 function DisplayNotes(){
     const {todos, dispatch} = useContext(contextTodo);
     return(
-        <div className="grid grid-cols-3 gap-1 m-10">
+        <div className="flex grid grid-cols-3 gap-1 m-10">
             {
                 todos.map((todo,index)=>{
                     return (

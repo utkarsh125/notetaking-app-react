@@ -3,6 +3,8 @@
 
 const ADD_TODO = 'ADD_TODO'
 const REMOVE_TODO = 'REMOVE_TODO'
+//TODO: UPDATE
+// const UPDATE = 'UPDATE_TODO'
 
 export {
     ADD_TODO,
